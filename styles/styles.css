@@ -1,0 +1,136 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+
+body {
+    width: 80%;
+    padding: 5vw;
+    margin: auto;
+    font-family: "Source Code Pro", monospace;
+    font-size: 1.2em;
+    text-align: center;
+    background-image: url("https://cdn.pixabay.com/photo/2019/10/09/07/28/development-4536630_1280.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:0%;
+    background-color:yellow;
+}
+
+.encabezado, .aboutMe, .favTecnology, .favActivity, .Projects {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.jshtmlcss {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+}
+
+h1, h2, p, span, form {
+    color: white;
+}
+
+.imagen {
+    width: 100%;
+    max-width: 600px;
+    transition: transform 0.3s ease;
+}
+
+.imagen:hover {
+    transform: scale(1.1);
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+input, textarea {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.label {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2px 12px;
+    border-radius: 2px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+#agregar {
+    background-color: green;
+    color: white;
+    width: 20%;
+    height: 30px;
+}
+
+#contenedorDeProyectos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: calc(50% - 2%);
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+    color: white;
+}
+
+.imgUrl {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.deleteButton {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.deleteButton:hover {
+    background-color: rgba(255, 0, 0, 0.8);
+}
+
+#footer {
+    color: black;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+      width: 100%;
+      padding: 5vw;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 100%;
+        margin: 1%;
+    }
+}

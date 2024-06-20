@@ -1,0 +1,73 @@
+/* Reset CSS */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove margin and padding on buttons */
+button {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove margin and padding on form elements */
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove border and outline on outline elements */
+pre,
+a,
+abbr,
+audio,
+b,
+code,
+input,
+select,
+textarea {
+  border: 0;
+  outline: 0;
+}
+
+/* Reset focus styles to improve accessibility when needed */
+a:focus,
+button:focus {
+  outline: auto;
+}

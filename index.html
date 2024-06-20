@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>Proyecto M1</title>
+</head>
+<body>
+	<header>
+		<article class="encabezado">
+			<h1>FACUNDO NICOLAS MARTINO</h1>
+			<span>página de Presentación</span>
+		</article>
+	</header>
+
+	<main>
+		<section class="aboutMe">
+			<article>
+				<h2>SOBRE MI</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit repellendus beatae libero a expedita dolor natus numquam praesentium exercitationem quod, accusantium aperiam tempora maiores ut optio temporibus, eveniet vitae ducimus.
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit quam, eveniet tenetur minus alias laborum velit atque natus! Laudantium reprehenderit est minus odio recusandae maiores esse doloremque nemo quae quas!
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nihil facilis, natus velit quod illum nam excepturi pariatur praesentium vel? Nostrum sed magni nobis obcaecati iste, incidunt debitis facere minus.
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi fugit laudantium reiciendis sint ducimus optio doloremque reprehenderit. Quidem dolores, maxime architecto dignissimos illo possimus porro laboriosam consequuntur cumque quibusdam cupiditate.
+				</p>
+			</article>
+		</section>
+		<section class="favTecnology">
+			<article>
+				<h2>MIS TECNOLOGIAS FAVORITAS</h2>
+			</article>
+			<div class="jshtmlcss">
+				<div><img class="imagen" src="assets/pngwing.com.png" alt="jshtmlcss"></div>
+			</div>
+		</section>
+		<section class="favActivity">
+			<article>
+				<h2>MIS ACTIVIDADES FAVORITAS</h2>
+			</article>
+			<form class="formulario">
+				<label class="label" for="title">TITULO</label>
+				<input type="text" placeholder="Titulo" name="title" id="title" required>
+				<br>
+				<label class="label" for="description">DESCRIPCION</label>
+				<textarea name="description" placeholder="Descripción" id="description" cols="30" rows="10" required></textarea>
+				<br>
+				<label class="label" for="urlImg">URL DE IMAGEN</label>
+				<input type="url" placeholder="URL de Imagen" id="urlImg" required	>
+				<br>
+				<input id="agregar" type="submit" value="Cargar Proyecto">
+			</form>
+		</section>
+		<section class="Projects">
+			<h2>PROYECTOS</h2>
+			<article id="contenedorDeProyectos">
+				<!-- Aca van las tarjetas de los proyectos en <div>...</div>-->
+			</article>
+		</section>
+	</main>
+
+	<footer>
+		<article>
+			<p id="footer">&copy; 2024 Facundo Martino, Todos los derechos reservados.</p>
+		</article>
+	</footer>
+	<script src="./scripts/Modelo.js"></script> <!-- archivo Activity & Repository-->
+	<script src="./scripts/index.js"></script> <!-- archivo JavaScript principal -->
+</body>
+</html>
